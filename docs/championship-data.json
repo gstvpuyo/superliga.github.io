@@ -1,0 +1,338 @@
+{
+  "championship": {
+    "name": "Copa PES 2013 - Edição PARSEC",
+    "season": 2024,
+    "startDate": "2024-12-01",
+    "endDate": "2025-03-01",
+    "platform": "PARSEC",
+    "totalClubs": 12,
+    "totalRounds": 11,
+    "prizePool": 120
+  },
+  "clubs": [
+    {
+      "id": 1,
+      "name": "GALLATOS FC",
+      "owner": "leo",
+      "logo": "🏟️",
+      "color": "#FF6B6B"
+    },
+    {
+      "id": 2,
+      "name": "HITMAN FC",
+      "owner": "gui",
+      "logo": "🎯",
+      "color": "#4ECDC4"
+    },
+    {
+      "id": 3,
+      "name": "AE TRIBO DO PUYO",
+      "owner": "Puyo",
+      "logo": "🐆",
+      "color": "#FFE66D"
+    },
+    {
+      "id": 4,
+      "name": "CURTO-CIRCUITO FC",
+      "owner": "Curto",
+      "logo": "⚡",
+      "color": "#95E1D3"
+    },
+    {
+      "id": 5,
+      "name": "HISTORIANDO FC",
+      "owner": "Historiador",
+      "logo": "📚",
+      "color": "#C7CEEA"
+    },
+    {
+      "id": 6,
+      "name": "BORRACHEIROS JRS",
+      "owner": "Borracheiro",
+      "logo": "🛞",
+      "color": "#FF8B94"
+    },
+    {
+      "id": 7,
+      "name": "SE MALVEIRAS",
+      "owner": "Malveira",
+      "logo": "🌿",
+      "color": "#B4E7FF"
+    },
+    {
+      "id": 8,
+      "name": "POR MIM FC",
+      "owner": "Mim",
+      "logo": "💪",
+      "color": "#FFB6C1"
+    },
+    {
+      "id": 9,
+      "name": "SÓ NO PELO FC",
+      "owner": "Peludo",
+      "logo": "🐺",
+      "color": "#FFDAB9"
+    },
+    {
+      "id": 10,
+      "name": "IGOR FC",
+      "owner": "Igor",
+      "logo": "👑",
+      "color": "#DDA0DD"
+    },
+    {
+      "id": 11,
+      "name": "JOAO AVILA FC",
+      "owner": "João Avila",
+      "logo": "🦅",
+      "color": "#F0E68C"
+    },
+    {
+      "id": 12,
+      "name": "VAGA A DEFINIR FC",
+      "owner": "A Definir",
+      "logo": "❓",
+      "color": "#D3D3D3"
+    }
+  ],
+  "standings": [
+    {
+      "position": 1,
+      "clubId": 1,
+      "clubName": "GALLATOS FC",
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDifference": 0,
+      "points": 0
+    },
+    {
+      "position": 2,
+      "clubId": 2,
+      "clubName": "HITMAN FC",
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDifference": 0,
+      "points": 0
+    },
+    {
+      "position": 3,
+      "clubId": 3,
+      "clubName": "AE TRIBO DO PUYO",
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDifference": 0,
+      "points": 0
+    },
+    {
+      "position": 4,
+      "clubId": 4,
+      "clubName": "CURTO-CIRCUITO FC",
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDifference": 0,
+      "points": 0
+    },
+    {
+      "position": 5,
+      "clubId": 5,
+      "clubName": "HISTORIANDO FC",
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDifference": 0,
+      "points": 0
+    },
+    {
+      "position": 6,
+      "clubId": 6,
+      "clubName": "BORRACHEIROS JRS",
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDifference": 0,
+      "points": 0
+    },
+    {
+      "position": 7,
+      "clubId": 7,
+      "clubName": "SE MALVEIRAS",
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDifference": 0,
+      "points": 0
+    },
+    {
+      "position": 8,
+      "clubId": 8,
+      "clubName": "POR MIM FC",
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDifference": 0,
+      "points": 0
+    },
+    {
+      "position": 9,
+      "clubId": 9,
+      "clubName": "SÓ NO PELO FC",
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDifference": 0,
+      "points": 0
+    },
+    {
+      "position": 10,
+      "clubId": 10,
+      "clubName": "IGOR FC",
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDifference": 0,
+      "points": 0
+    },
+    {
+      "position": 11,
+      "clubId": 11,
+      "clubName": "JOAO AVILA FC",
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDifference": 0,
+      "points": 0
+    },
+    {
+      "position": 12,
+      "clubId": 12,
+      "clubName": "VAGA A DEFINIR FC",
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDifference": 0,
+      "points": 0
+    }
+  ],
+  "matches": [
+    {
+      "round": 1,
+      "matchId": 1,
+      "homeClubId": 1,
+      "homeClubName": "GALLATOS FC",
+      "awayClubId": 12,
+      "awayClubName": "VAGA A DEFINIR FC",
+      "homeGoals": null,
+      "awayGoals": null,
+      "status": "scheduled",
+      "date": "2024-12-01"
+    },
+    {
+      "round": 1,
+      "matchId": 2,
+      "homeClubId": 2,
+      "homeClubName": "HITMAN FC",
+      "awayClubId": 11,
+      "awayClubName": "JOAO AVILA FC",
+      "homeGoals": null,
+      "awayGoals": null,
+      "status": "scheduled",
+      "date": "2024-12-01"
+    },
+    {
+      "round": 1,
+      "matchId": 3,
+      "homeClubId": 3,
+      "homeClubName": "AE TRIBO DO PUYO",
+      "awayClubId": 10,
+      "awayClubName": "IGOR FC",
+      "homeGoals": null,
+      "awayGoals": null,
+      "status": "scheduled",
+      "date": "2024-12-01"
+    },
+    {
+      "round": 1,
+      "matchId": 4,
+      "homeClubId": 4,
+      "homeClubName": "CURTO-CIRCUITO FC",
+      "awayClubId": 9,
+      "awayClubName": "SÓ NO PELO FC",
+      "homeGoals": null,
+      "awayGoals": null,
+      "status": "scheduled",
+      "date": "2024-12-01"
+    },
+    {
+      "round": 1,
+      "matchId": 5,
+      "homeClubId": 5,
+      "homeClubName": "HISTORIANDO FC",
+      "awayClubId": 8,
+      "awayClubName": "POR MIM FC",
+      "homeGoals": null,
+      "awayGoals": null,
+      "status": "scheduled",
+      "date": "2024-12-01"
+    },
+    {
+      "round": 1,
+      "matchId": 6,
+      "homeClubId": 6,
+      "homeClubName": "BORRACHEIROS JRS",
+      "awayClubId": 7,
+      "awayClubName": "SE MALVEIRAS",
+      "homeGoals": null,
+      "awayGoals": null,
+      "status": "scheduled",
+      "date": "2024-12-01"
+    }
+  ],
+  "topScorers": [
+    {
+      "rank": 1,
+      "playerName": "A definir",
+      "clubId": null,
+      "goals": 0
+    }
+  ]
+}
