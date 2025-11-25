@@ -21,3 +21,4 @@ export function useAuth(options?: UseAuthOptions) {
       refresh: () => {},
       logout: async () => {},
     };
+  }
