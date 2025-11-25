@@ -11,6 +11,7 @@ const plugins = [react(), tailwindcss(), jsxLocPlugin(), vitePluginManusRuntime(
 
 export default defineConfig({
   plugins,
+  base: './',
   resolve: {
     alias: {
       // O código-fonte principal (src) ainda está em client/src, então mantemos o alias
