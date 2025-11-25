@@ -13,14 +13,17 @@ export default defineConfig({
   plugins,
   resolve: {
     alias: {
+      // O código-fonte principal (src) ainda está em client/src, então mantemos o alias
       "@": path.resolve(import.meta.dirname, "client", "src"),
       "@shared": path.resolve(import.meta.dirname, "shared"),
       "@assets": path.resolve(import.meta.dirname, "attached_assets"),
     },
   },
   envDir: path.resolve(import.meta.dirname),
-  root: path.resolve(import.meta.dirname, "client"),
-  publicDir: path.resolve(import.meta.dirname, "client", "public"),
+  // MUDANÇA CRÍTICA 1: Aponta para a raiz, onde o index.html está agora
+  root: path.resolve(import.meta.dirname), 
+  // MUDANÇA CRÍTICA 2: A pasta public agora está na raiz
+  publicDir: path.resolve(import.meta.dirname, "public"), 
   build: {
     outDir: path.resolve(import.meta.dirname, "dist/public"),
     emptyOutDir: true,
