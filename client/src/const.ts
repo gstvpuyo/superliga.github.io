@@ -11,11 +11,15 @@ export const getLoginUrl = () => {
   const redirectUri = `${window.location.origin}/api/oauth/callback`;
   const state = btoa(redirectUri);
 
-  const url = new URL(`${oauthPortalUrl}/app-auth`);
-  url.searchParams.set("appId", appId);
-  url.searchParams.set("redirectUri", redirectUri);
-  url.searchParams.set("state", state);
-  url.searchParams.set("type", "signIn");
+  // If the OAuth portal URL is not provided (e.g. static deploy),
+  // fall back to the current origin so `new URL` always receives a valid base.
+  const base = oauthPortalUrl ? oauthPortalUrl : window.location.origin;
+
+  const url = new URL('/app-auth', base);
+  url.searchParams.set('appId', appId ?? '');
+  url.searchParams.set('redirectUri', redirectUri);
+  url.searchParams.set('state', state);
+  url.searchParams.set('type', 'signIn');
 
   return url.toString();
 };
