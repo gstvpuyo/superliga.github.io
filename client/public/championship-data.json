@@ -13,14 +13,14 @@
     {
       "id": 1,
       "name": "GALLATOS FC",
-      "owner": "Gallatos",
+      "owner": "leo",
       "logo": "🏟️",
       "color": "#FF6B6B"
     },
     {
       "id": 2,
       "name": "HITMAN FC",
-      "owner": "Hitman",
+      "owner": "gui",
       "logo": "🎯",
       "color": "#4ECDC4"
     },
