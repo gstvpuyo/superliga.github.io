@@ -20,12 +20,10 @@ export default defineConfig({
     },
   },
   envDir: path.resolve(import.meta.dirname),
-  // MUDANÇA CRÍTICA 1: Aponta para a raiz, onde o index.html está agora
-  root: path.resolve(import.meta.dirname), 
-  // MUDANÇA CRÍTICA 2: A pasta public agora está na raiz
-  publicDir: path.resolve(import.meta.dirname, "public"), 
+  root: path.resolve(import.meta.dirname, "client"),
+  publicDir: path.resolve(import.meta.dirname, "client", "public"),
   build: {
-    outDir: path.resolve(import.meta.dirname, "dist/public"),
+    outDir: path.resolve(import.meta.dirname, "docs"),
     emptyOutDir: true,
   },
   server: {
